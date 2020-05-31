@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Air Pollution Monitor</title>
+<style>body{background-image: url("bgimg.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover;}</style>
+</head>
+<body>
+<div style="padding:50px; display:inline-block;">
+<h1 style="padding:15px;text-align:center; font-size:370%; background: rgba(0, 0, 0, 0.3); color:White; border-radius:10px;">AIR POLLUTION MONITORING SYSTEM</h1>
+<br><br><br><br><br>
+<div style="font-size:150%;display:inline">PPM of Air: </div>
+<div style="display:inline;font-size:150%;"><div id="ppm" style="display:inline;"></div> ppm</div>
+<br><br><br>
+<div style="font-size:150%;display:inline">Air Quality: </div>
+<b><div id="status" style="display:inline;font-size:150%;"></div></b>
+</div>
+<script> window.setInterval(function(){ document.getElementById('ppm').innerHTML = ppm1; }, 1000);
+window.setInterval(function(){ document.getElementById('status').innerHTML = status1; }, 1000); </script>
+</body>
+</html>
+
+
+
